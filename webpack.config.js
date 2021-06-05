@@ -27,7 +27,8 @@ module.exports = {
         name: "mf3Cards",
         filename: "remoteEntry.js",
         exposes: {
-            './MF3Cards': './/src/bootstrap.ts',
+            './MF3Cards': './/src/app/app.module.ts',
+            './MF3Platform': './/src/platform.ts',
         },        
         
         // For hosts (please adjust)
