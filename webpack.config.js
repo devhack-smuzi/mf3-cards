@@ -10,7 +10,7 @@ sharedMappings.register(
 module.exports = {
   output: {
     uniqueName: "mf3Cards",
-    publicPath: "/cards/"
+    publicPath: "auto"
   },
   optimization: {
     runtimeChunk: false
